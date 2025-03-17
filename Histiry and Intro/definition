@@ -44,6 +44,8 @@ check node -v in cmd else add path to env
  npx create-react-app appName //node package executer-npx 
                             //node package manage -npm  on website bhut saare nodeJs ke packages hai . code library ko apne app me laane ke liye install krna pdega
 
+to run :-  npm start
+
 after few minute 
 one folder will be created that contain 
 
@@ -84,5 +86,19 @@ npx createApp has added some faltoo ki dependency but vite aisa nhi krta hai
 
 
 2. Vite 
-cmd : npm create vite@latest
+-------------------------
+
+cmd : npm create vite@latest 
+it will install only 2 dependencies it will not auto i npm node_module  
+by default script: 
+                has "dev" instead of "start"
+                to run :- npm run  dev
+
+src-> assets:
+            contains img that will be used in Projects
+
+instead of index.jsx here it is main.jsx 
+
+we can use js between html tag with help of bracket { }
+
 
