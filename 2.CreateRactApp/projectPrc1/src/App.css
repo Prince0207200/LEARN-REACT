@@ -1,0 +1,28 @@
+.navkamain{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  
+    
+  
+  
+
+}
+.navh1{
+  padding-left: 12px;
+}
+.navkamain ul{
+  
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+}
