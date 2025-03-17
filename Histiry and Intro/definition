@@ -1,0 +1,19 @@
+React is used to develop single page app ,free and open-source frontend-js-library for building ui based on component by FaceBook inc
+
+key advantage-- only rerender that part is changed
+
+to use react in js file using CDN
+
+step go to react cdn website
+<!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+we added in html
+
+now we created h1 using react but react is use to create frontend but to show on browser wh have 2 thing REACTdom REACTnative
+
+REACTdom --dlaal ke trah workkrta hai parent root ko create krta hai jiske ander hum react wale h1 ko append krenge ||  react ka elememt jo bnaya hai usko reactdom browser me print krta hai parent(root) element bnake
+
+
+REACTnative used for mobile app
+
