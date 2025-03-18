@@ -1,0 +1,15 @@
+.box{
+    width: 300px;
+    background-color: aqua;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.app{
+    display: flex;
+    gap: 40px;
+}

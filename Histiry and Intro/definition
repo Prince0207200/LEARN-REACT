@@ -101,4 +101,27 @@ instead of index.jsx here it is main.jsx
 
 we can use js between html tag with help of bracket { }
 
+we can nav with h1 ul ol li with css list-style none to remove "bullet point" 
+
+LEVEL 03
+------------------
+
+Props in React
+
+props-- properties
+props are arg passed in react component
+react props is accessed like function arg in js(props.name) and passed like att in html(name="Prince")
+
+we have made 1 component Box, and renderd in App component 2 time and we wnat to change data for 2nd rendred Box we use props
+
+Sare functional component ek args lete hai named props by default it can take
+
+we can console props we will se props return { } objects in starting empty we can pass values from where component(where we will wnt to change data) is rendered.
+
+we will pass attribute with value where component is rendered and can be accessed in functional-component by arg props and can be used inside return using {props.attr} 
+
+if we forgot to pass attr from component called like "<"Box" />" we can define default value of attr in props pace using {name="Prince"} and access & use in html inside  {name}
+
+for other component if attr passed it will be reflected over default attr
+
 
