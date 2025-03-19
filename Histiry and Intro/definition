@@ -125,3 +125,45 @@ if we forgot to pass attr from component called like "<"Box" />" we can define d
 for other component if attr passed it will be reflected over default attr
 
 
+Level - 4
+----------------
+Hooks in react
+
+scenario: in app component we created h1 where we printing color from let color="blue" using {color} and using button to change blue to black we used on click where we callback a arrow function containg color="black" and we are consoling it will print in console but not in h1{color} beacuse react render only part that has been changed .to state change hooks
+So to resolve this weneed hooks 
+
+hooks:- allow functional component to have access to state and other react feature so no class component needed.
+
+state:- js object that holds data about component
+
+useState() :- it is used when we want to add state variable to component ,to update the data not only in call back fun but whereever variable is called 
+||
+jab bhi ek variable ki value change krna ho component me
+
+usestate is taking a array of 2 idx element   idx 0-- state variable
+                                              idx 1-- function to update it
+                                              let [state, setState]=useState("blue")
+
+useEffect():- allows to perform side effect in component like fetching data, directly updating dom elemnet, timer
+2 args 1.-> function 2.-> dependency(optional)
+<!-- useEffect(<function>, <dependency>) -->
+
+3 ways it can be used 
+                        1.When no dependencies passed---runs on every render
+                        2.When empty array is pased  --runs only  on the first render
+                        3.When any state or props is passed in array --runs first time then again render when passed state or props change
+
+useRef():-      It is used when we want to change obj.curent data without re-rendring  
+                (Doesn’t trigger a re-render when inputRef.current changes.) 
+                , it return obj inside that current varible store state ,one more use when we want to access dom elemnt directly **(useState re-render when value change but not here ) 
+
+                persist value between render
+
+Level -5
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
