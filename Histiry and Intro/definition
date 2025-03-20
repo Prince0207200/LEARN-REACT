@@ -140,9 +140,13 @@ useState() :- it is used when we want to add state variable to component ,to upd
 ||
 jab bhi ek variable ki value change krna ho component me
 
+when state is updated it auto rerender
+
 usestate is taking a array of 2 idx element   idx 0-- state variable
                                               idx 1-- function to update it
                                               let [state, setState]=useState("blue")
+
+                                              
 
 useEffect():- allows to perform side effect in component like fetching data, directly updating dom elemnet, timer
 2 args 1.-> function 2.-> dependency(optional)
@@ -161,6 +165,15 @@ useRef():-      It is used when we want to change obj.curent data without re-ren
 
 Level -5
 ---------------------------------------------------------------------------------------------------------
+REACT ROUTER
+
+library for handling routing and navigation in React js app
+it helps us to route or navigate in single page without refreshing the entire page
+in js page was refreshed during navigation
+
+SPA - Single Page Application
+
+to install "npm install react-router-dom
 
 
 
