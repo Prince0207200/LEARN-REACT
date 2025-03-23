@@ -190,7 +190,17 @@ m2:- router=createbrowser we will use another fun createRoutesFromElement (
 )
 
 
+Level -6
+------------------------------------------------------------
 
+context api:-  --in react used to share data across component without passing the props manually through every  level
+               --without props drilling global varible can be passed anywhere in code
+               --helps for nested component to share data and to use just call React.createContext() and no need for other dependencies to installl
+
+userContext.jsx component -> wrap app.jsx in UserContext -> in UserContext fetch props or dirctly children(App.jsx) as props now we are getting app wrapped inside usercontext accessed inside {children} but our motive was make a variable global using usercontext so we can access from anywhere .So username variable(data) in UserContext ko send krne ke liye hum ek 'const data =createContext()' ko export kr lenge aur {children } ko data.Provider se wrap krke value = datatobesend 
+aur fetch krne ke liye let obj=useContext(data that is exported) we can use inside {ob.att}
+
+step :-create context comp -> wrap app.jsx -> feth app as {children} -> export let d=createContext()-> wrap {children} with d.Provider inside that value ={data to send}->fetch using ob=useContext and use as {ob.att}   
 
 
 
