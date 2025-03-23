@@ -175,6 +175,21 @@ SPA - Single Page Application
 
 to install "npm install react-router-dom
 
+can create diffrent page where one can be fix and other will be changing like in contact page contact address is fixed and contactnav is fixed but  contactno1 and contactno2 is chnging same in app.lsx nav and footer is fix but hero section is changing like by default home
+using react-router-dom library component "Outlet" 
+
+navigation:-
+         in main.jsx we will do routing by 2 method just import App.jsx inside RouterProvider giving att router=variable router
+         how router is define
+
+
+m1:-  router= createbrowserrouter () inside that in array we can pass path element children
+
+m2:- router=createbrowser we will use another fun createRoutesFromElement (
+        Route inside that path and element
+)
+
+
 
 
 
