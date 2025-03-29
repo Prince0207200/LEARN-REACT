@@ -146,6 +146,7 @@ usestate is taking a array of 2 idx element   idx 0-- state variable
                                               idx 1-- function to update it
                                               let [state, setState]=useState("blue")
 
+
                                               
 
 useEffect():- allows to perform side effect in component like fetching data, directly updating dom elemnet, timer
