@@ -108,10 +108,14 @@ LEVEL 03
 
 Props in React
 
+<<<<<<< HEAD
 
 
 props-- properties
 
+=======
+props-- properties
+>>>>>>> 6d178050d6c3967e425f5514a801abdfea323999
 props are arg passed in react component
 react props is accessed like function arg in js(props.name) and passed like att in html(name="Prince")
 
@@ -149,6 +153,10 @@ usestate is taking a array of 2 idx element   idx 0-- state variable
                                               idx 1-- function to update it
                                               let [state, setState]=useState("blue")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6d178050d6c3967e425f5514a801abdfea323999
                                               
 
 useEffect():- allows to perform side effect in component like fetching data, directly updating dom elemnet, timer
