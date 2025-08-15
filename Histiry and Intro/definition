@@ -108,7 +108,10 @@ LEVEL 03
 
 Props in React
 
+
+
 props-- properties
+
 props are arg passed in react component
 react props is accessed like function arg in js(props.name) and passed like att in html(name="Prince")
 
