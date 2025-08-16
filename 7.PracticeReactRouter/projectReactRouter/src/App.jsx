@@ -1,16 +1,15 @@
 import React from 'react'
 import Nav from './component/Nav'
-import Mainbody from './component/Mainbody'
+import './App.css'
 import Footer from './component/Footer'
-import Test from './component/test'
+import {Outlet} from 'react-router-dom'
 
 function App() {
   return (
     <div>
       <Nav />
-      <Mainbody/>
-      <Footer/>
-      <Test />
+     <Outlet/>
+      <Footer />
     </div>
   )
 }
